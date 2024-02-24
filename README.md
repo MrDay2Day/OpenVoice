@@ -64,8 +64,16 @@ Clone this repo, and run
 **  conda activate openvoice
     conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
     pip install -r requirements.txt
-**  python -m openvoice_app --share
 
+```
+
+##
+
+### To run this project
+
+```
+** conda activate openvoice
+** python -m openvoice_app --share
 ```
 
 Download the checkpoint from [here](https://myshell-public-repo-hosting.s3.amazonaws.com/checkpoints_1226.zip) and extract it to the `checkpoints` folder
@@ -98,12 +106,14 @@ There are many single or multi-speaker TTS methods that can generate natural spe
 ## Citation
 
 ```
+
 @article{qin2023openvoice,
-  title={OpenVoice: Versatile Instant Voice Cloning},
-  author={Qin, Zengyi and Zhao, Wenliang and Yu, Xumin and Sun, Xin},
-  journal={arXiv preprint arXiv:2312.01479},
-  year={2023}
+title={OpenVoice: Versatile Instant Voice Cloning},
+author={Qin, Zengyi and Zhao, Wenliang and Yu, Xumin and Sun, Xin},
+journal={arXiv preprint arXiv:2312.01479},
+year={2023}
 }
+
 ```
 
 ## License
